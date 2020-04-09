@@ -1,0 +1,201 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+.nike__background-1 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/background-1.png") no-repeat 50% 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.nike__background-2 {
+  background: url("../img/background-2.png");
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nike__block {
+  background: #111a28;
+  width: 680px;
+  height: 391px;
+}
+.nike__color {
+  display: flex;
+  align-items: center;
+}
+
+.color--select {
+  position: relative;
+  padding-right: 24px;
+}
+
+.color--select::before {
+  position: absolute;
+  left: 175px;
+  top: -35px;
+  content: " ●";
+  width: 32px;
+  color: yellow;
+}
+
+.color--select:first-of-type::before {
+  color: #000;
+}
+
+.color--select:nth-of-type(2)::before {
+  color: #fff;
+}
+
+.color--select:nth-of-type(3)::before {
+  color: #ed3333;
+}
+
+.color--select:nth-of-type(4)::before {
+  color: #29e3ea;
+}
+
+.color--select:focus::before {
+  content: " ⬤";
+}
+
+.logo {
+  margin: 24px 20px;
+}
+
+.main {
+  display: flex;
+}
+.main__pic {
+  margin: 70px 36px;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+}
+.main__select {
+  margin-bottom: 32px;
+}
+.main__select .select {
+  background: transparent;
+  color: #797d84;
+  border: 1px solid #797d84;
+  width: 77px;
+  height: 38px;
+  font-size: 14px;
+  padding: 10px 13px;
+}
+.main__select .select__option {
+  background: #111a28;
+}
+.main__form--button {
+  width: 185px;
+  height: 40px;
+  background: transparent;
+  color: #797d84;
+  border: 1px solid #797d84;
+}
+
+.text__title {
+  width: 157px;
+  color: #adafb3;
+  font-size: 24px;
+}
+.text__desc {
+  color: #49505a;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.stars {
+  margin-bottom: 25px;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 27px;
+}
+.stars .star:first-of-type:hover::before {
+  content: " ★";
+  left: 0;
+  position: absolute;
+  width: 16px;
+  color: yellow;
+}
+.stars .star:nth-of-type(2):hover::before {
+  content: " ★ ★";
+  left: 0;
+  position: absolute;
+  width: 32px;
+  color: yellow;
+}
+.stars .star:nth-of-type(3):hover::before {
+  content: " ★ ★ ★";
+  left: 0;
+  position: absolute;
+  width: 50px;
+  color: yellow;
+}
+.stars .star:nth-of-type(4):hover::before {
+  content: " ★ ★ ★ ★";
+  left: 0;
+  position: absolute;
+  width: 67px;
+  color: yellow;
+}
+.stars .star:nth-of-type(5):hover::before {
+  content: " ★ ★ ★ ★ ★";
+  left: 0;
+  position: absolute;
+  width: 85px;
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
+s .star:first-of-type:hover::before {
+  content: " \2605";
+  left: 0;
+  position: absolute;
+  width: 16px;
+  color: yellow;
+}
+
+.stars .star:nth-of-type(2):hover::before {
+  content: " \2605  \2605";
+  left: 0;
+  position: absolute;
+  width: 32px;
+  color: yellow;
+}
+
+.stars .star:nth-of-type(3):hover::before {
+  content: " \2605  \2605  \2605";
+  left: 0;
+  position: absolute;
+  width: 50px;
+  color: yellow;
+}
+
+.stars .star:nth-of-type(4):hover::before {
+  content: " \2605  \2605  \2605  \2605";
+  left: 0;
+  position: absolute;
+  width: 67px;
+  color: yellow;
+}
+
+.stars .star:nth-of-type(5):hover::before {
+  content: " \2605  \2605  \2605  \2605  \2605";
+  left: 0;
+  position: absolute;
+  width: 85px;
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */
